@@ -9,3 +9,4 @@ I am currently doing Full Stack Open course. This course covers a wide range of 
 - GraphQL
 - TypeScript
 
+npm create vite@latest introdemo -- --template react
