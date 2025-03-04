@@ -3,6 +3,11 @@ import contactService from "./services/persons";
 import Notification from "./components/Notifications";
 import Error from "./components/Error";
 
+
+
+
+
+
 const Filter = ({ filterStr, handleFilter }) => {
   return (
     <input placeholder="Filter..." value={filterStr} onChange={handleFilter} />
@@ -128,7 +133,7 @@ const App = () => {
       alert(
         `Seems like ${newName} has the same phone number as somebody else, welp might wanna check that out chief`
       );
-      // This is intentional ain't preventing this, two people legit can have same number
+  
     }
     const newContact = { name: newName, number: newNumber };
 
